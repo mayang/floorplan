@@ -1,0 +1,16 @@
+{
+  "name": "floorplan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "directory.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "may ang",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "gulp": "^3.9.0",
+    "redis": "^0.12.1"
+  }
+}
