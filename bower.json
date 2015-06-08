@@ -1,0 +1,20 @@
+{
+  "name": "floorplan",
+  "version": "0.0.0",
+  "authors": [
+    "may ang <mayday815@gmail.com>"
+  ],
+  "license": "MIT",
+  "directory": "public/bower_components"
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "snap.svg": "~0.4.1",
+    "jquery": "~2.1.4"
+  }
+}

@@ -12,7 +12,10 @@ app.engine('ejs', engine);
 app.set('views', __dirname + '/templates');
 app.set('view engine', 'ejs');
 app.set('template_engine', 'ejs');
-app.use(express.static(path.join(__dirname, 'assets')));
+app.use(express.static('public'));
+// app.use(express.static('assets'));
+// app.use(express.static('bower_components'));
+// app.use(express.static('javascript'));
 app.use(bodyParser.json());
 
 app.get('/', function(req, res) {
@@ -100,3 +103,4 @@ app.delete('/cube', function(req, res, next) {
 });
 
 app.listen(3000);
+console.log('listening on port 3000...');
