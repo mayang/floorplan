@@ -15,7 +15,9 @@
   "dependencies": {
     "snap.svg": "~0.4.1",
     "jquery": "~2.1.4",
-    "tipsy": "~0.1.7"
+    "tipsy": "~0.1.7",
+    "typeahead.js": "~0.11.1",
+    "bootstrap": "~3.3.4"
   },
   "resolutions": {
     "jquery": "~2.1.4"
